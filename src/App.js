@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import PatientManagement from './Components/PatientManagement/PatientManagement';
+import ReducerCount from './Components/ReducerCount/ReducerCount'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
+       
+      <ReducerCount></ReducerCount>
+      <PatientManagement></PatientManagement>
       </header>
     </div>
   );
